@@ -1,0 +1,10 @@
+{
+  "name": "05_JSDataTypes",
+  "version": "0.0.0",
+  "description": "05_JSDataTypes",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "05_TypeConversions",
+  "version": "0.0.0",
+  "description": "05_TypeConversions",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

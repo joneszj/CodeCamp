@@ -1,0 +1,35 @@
+Constructors primarially are used to set inital values to classes at instantiation time
+
+constructors can optionally provide default values for our classes or force the developer to provide those values
+
+its mainjob is to ensure that the object is in a valid initial state
+
+we can pass values to a constructor similar in the way we pass values to methods
+
+{type} {name} = new {type} {constructor ([values])}
+
+ctor tab tab for a shortcut
+
+A class that does not provide an implemented constructor, get a default constructor.
+
+*****Default Constructor
+The default constructor will set the class fields to default values:
+int is 0, string is null, complex types are null, bools are false, etc.
+If we implement a constructor, we will loose the default constructor, and if we want one, we must implement both
+We can create multiple constructors if needed
+
+*****Constructor Chaining
+Often times it is necessary to repeat constructor code in additional constructors. We can use constructor chaining to do this
+ctor chaining uses the this keyword {this() {additional ctor} }
+
+*****Static Constructor
+The constructors we’ve looked at so far run when a new instance of an object is created.
+Classes and structs can also define a static constructor. This runs at most once in the
+lifetime of the application. You do not invoke it explicitly—C# ensures that it runs au­
+tomatically at some point before you first use the class. So, unlike an instance construc­
+tor, there’s no opportunity to pass arguments. Since static constructors cannot take ar­
+guments, there can be only one per class. Also, because these are never accessed explic­
+itly, you do not declare any kind of accessibility for a static constructor.
+
+Why? Just as an instance constructor puts the instance into a useful initial state, the static
+constructor provides an opportunity to initialize any static fields

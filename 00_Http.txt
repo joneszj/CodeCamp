@@ -1,0 +1,2 @@
+https://msdn.microsoft.com/en-us/library/system.net(v=vs.110).aspx
+http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177

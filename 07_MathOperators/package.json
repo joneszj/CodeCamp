@@ -1,0 +1,10 @@
+{
+  "name": "07_MathOperators",
+  "version": "0.0.0",
+  "description": "07_MathOperators",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

@@ -1,0 +1,27 @@
+*****Setup
+Create a new console project: 03_CastsAndConversions
+
+*****Casts
+You likely experienced some frustration attempting to assign decimal values to integers, or even
+decimal values to floats
+Casting will attempt to convert a value to another
+({cast to type}){cast from variable}
+Casting will truncate information it cannot cast (ex. casting to an int will truncate decimal values of a double)
+
+*****Assignment
+Create and initialize a few floating point types
+create new integer variables from casting the previous variables
+print the new variables to the console
+
+*****Converts
+Converts are found in the System.Convert class
+Conversions will attempt to round to its nearest equivalent converted type
+System.Convert({variable to convert})
+
+*****Assignment
+Using the same variables floating point variables created at the start
+create new variables and assign them using the convert functions
+
+*****Homework
+Casts & Convert
+https://msdn.microsoft.com/en-us/library/ms173105.aspx

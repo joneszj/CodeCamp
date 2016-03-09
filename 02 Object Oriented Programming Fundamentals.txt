@@ -1,0 +1,6 @@
+Objects (nouns), Methods (verbs), Properties (adjectives)
+Classes (blueprints for objects)
+Encapsulation (hiding information/implementation)
+Aggregation (composing an class with other classes)
+Inheritance (reusing existing classes on new classes via inheriting as opposed to rewritting)
+Polymorphism (class specific customization of inherited methods/properties)

@@ -1,0 +1,10 @@
+{
+  "name": "10_Comments",
+  "version": "0.0.0",
+  "description": "10_Comments",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

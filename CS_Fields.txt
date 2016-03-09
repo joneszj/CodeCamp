@@ -1,0 +1,16 @@
+We should already have a good understanding of fields. Field represent what a class 'has'. 
+
+Fields are intended to be hidden (private) from everything but the class they belong to.
+
+We expose fields via methods or properties
+
+Fields generally start with an underscore by convention
+
+Fields have a type, a name, and a value
+
+{type} {name} = {value};
+int _height = 58;
+
+readonly - C# readonly tells the code that this value can only be set at instantiation time (this can be worked around, but for now 
+we can leave it there)
+const - the const is like readonly only it can never change.

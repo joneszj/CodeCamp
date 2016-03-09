@@ -1,0 +1,110 @@
+*****Side - things we know
+Read/Write from a Console Application
+Intrinsic Data Types
+Variable Declaration/Assignment
+Quirks in Floats
+Block Scope
+Keyboard Shortcuts (copy/paste lines, document formatting)
+Preprocessing Directives (#region)
+Comments
+Breakpoints
+
+*****Side - tools we can use
+Cast, Convert, Parse, TryParse
+Mathematical and Logical Operators
+Conditional Statements (if/else)
+Iteration loops (while/do/for)
+Arrays (single/multidimensional/jagged)
+
+*****Scenario - Calculator
+	Mid-Senior: 10-20 mins
+	Junior: 1-8 hrs
+Console Application, Name: 11_Calculator
+Program will continuously repeat unless the user submits a certain char (up to you)
+User can submit as many numbers to calculate as they desire
+User can determine which mathematical operators to use between each calculation
+Total will be displayed after each calculation
+Each number submitted and the mathematical operator used between each calculation will be tracked and displayed after each calculation
+A means to clear the calculator
+
+Concepts I used:
+Console.Write, Console.WriteLine, Console.Clear, Console.ReadLine
+Do While, If, If Else, Else, Switch
+double.TryParse
+String Concatenation, String Placeholders
+
+*****Scenario – TicTacToe
+	Mid-Senior: 10-20 mins
+	Junior: 1-8 hrs
+Tic-Tac-Toe Game
+Human will always start first
+Computer will randomly or programmatically perform its turn
+Means to display board (text or image)
+Means to identify a win/tie and notify user
+Means to start a new game or exit
+
+Concepts I user:
+Console.WriteLine
+Random Class
+If Else
+char.GetNumericValue, Casting
+do while loop
+Multidimensional arrays
+
+*****Scenario - Largest Sum
+	Mid-Senior: 5-10 mins
+	Junior: 1-2 hrs
+Given a random variable length collection of random numbers, 
+determine and print the top 3 highest numbers while ignoring duplicates then print its sum
+
+Concepts I used:
+Console.WriteLine
+String Concatenation, String Placeholders
+Random Class
+For loops
+
+*****Scenario – Modulus
+	Mid-Senior: ~5-10 mins
+	Junior: 1-2 hrs
+Given a random variable length collection of numbers, 
+in one loop print every other number, in another loop print every third number, 
+in a final loop print every fifth number
+
+Concepts I used:
+Console.WriteLine
+Random Class
+Single Dimension Array
+Modulus operator
+
+*****Scenario – Form Extraction
+	Mid-Senior: 30-60 mins
+	Junior: 1-16 hrs
+Present a Form for the user to populate and submit.
+Upon submission, print the form values to the user
+Requested Fields:
+First Name, Last Name, Date of Birth, Address City, Address State, Address Zip, Phone Number
+First and Last Name must be between 1 and 20 characters in length, and cannot contain numbers or spaces
+Date of Birth must be a valid date within the last 120 years
+Zip must be 5 characters in length
+Phone number must match format ###-###-####
+No Fields can be blank
+
+Concepts I used:
+{string variable}.IndexOf, {string variable}.length
+If Else Do and For loops
+string.IsNullOrEmpty
+Regular Expressions
+Regex Class, Regex.IsMatch
+@”string” literal
+DateTime Class, DateTime.MinValue, DateTime.Today.Year
+{variable}.ToString
+
+*****Scenario - Scenario – String Reversal
+Reverse a single word string
+Reverse each word in a sentence individually
+Mirror a sentence
+Mirror a sentence and then reverse each word individually
+
+Concepts I used:
+console methods
+string.split

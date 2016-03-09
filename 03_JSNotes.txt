@@ -1,0 +1,19 @@
+*****Setup
+create a new console application: 03_JSUseStrict
+
+the use strict declaration will help us in that it will cause an error where in 
+non strict mode JS will often help by assuming what you were trying to do.
+
+x = 3.14; will error out as we did not use the var. 
+Non strict mode would create a new var automatically... This could be problematic at times
+http://stackoverflow.com/questions/2485423/is-using-var-to-declare-variables-optional
+
+//var x = 3.14;
+//delete x;                // This will cause an error, delete is not permitted in strict mode
+
+*****Assignment
+implement the use strict declaration
+attempt to assign a variable without the var keyword (hoisting)
+
+*****Goal
+Understand what use strict does and how it can be useful or not

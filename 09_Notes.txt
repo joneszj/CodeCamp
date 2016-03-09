@@ -1,0 +1,90 @@
+Sigh..... Arrays
+*****Side
+We have learned a lot so far! Once we understand arrays I would consider each of you junior programmers! 
+Why? Everything so far translates into almost any language. 
+They all have for/while/do loops, variables, if/else statements, comments, scope, etc. 
+The syntax (how we write code) may change slightly between languages but the concept is there! 
+Also, whether you are building a web page, a desktop or mobile app, or a console app, all these concepts apply!
+If you have been able to understand everything to this point are are doing extremely well. 
+I don't expect brand new programmers to have a strong grasp on the concepts explained so far. 
+It really just takes time and practice
+
+*****Setup
+Create a new console application: 08_ArraysArraysArraysOhMy
+
+*****Arrays
+When describing an array, it sounds much more complicated than it really is
+Homogeneous fixed-size collections
+An array can hold multiple individual values, that must be the same type, 
+and once an array is created its size cannot be changed
+Arrays are zero indexed
+The first item has index 0, the second item 1, etc.
+
+*****Single Dimension Arrays
+A single-dimension array is the most common array. 
+It has one dimension, meaning that each index in the array contains only one object of the type the array is created with
+
+Syntax: {type}[] {name} = new {type}[i];
+Where i is the size of the array
+
+to initialize an array objet:
+{array name}[{invex value}] = {value};
+string[] states = new string[3] {"FL","TN","GA"};
+
+we cannot create an array that does not have its size determined
+we can determine the size of an array by with the array index
+or by providing values and optionally leaving out the index
+
+we can also create arrays are creation (instantiation) time:
+
+*****Assignment
+Create an array of numbers
+Create an array of names and initialize the array indexes with the names of your best friends
+
+*****for and arrays
+we can use for loops to loop through arrays
+arrays have a length property that we can use as the for loop condition
+for (int i = 0; i < names.length; i++)
+{
+    Console.WriteLine(names[i]);
+}
+
+*****Assignment
+using a for loop, print each name of your best friends array to the console
+
+*****Multi-Dimensional Arrays
+A multidimensional array allows us to have several values of the same type per array container
+md arrays are basically row/column collections.
+Syntax: {type}[] {name} = new {type}[r,c];
+
+this is the simplest to understand, but you can have more than 2 dimensions in the array,
+Syntax: {type}[] {name} = new {type}[r,r,c];
+
+A multidimension array of [4,3] will have four rows of three columns
+A multidimension array of [5,3,4] will have five rows, containing 4 rows each, 
+with each of those four rows having 3 columns
+
+*****Side
+I don't expect anyone to walk away being a genius with multidimensional or jagged arrays, 
+but I guarantee that if you spent one or two nights playing with them you would feel very confident about them
+
+*****Assignment
+using md arrays, create a [3,3] multidimensional array using the full name of your best friends
+then loop through the array twice
+the first time just printing out each array item
+the second time print the entire full name per first dimension iteration
+
+*****Jagged Arrays
+aka 'array of array;
+Syntax: {type}[][] name = new {type}[][];
+I have never used a MD or jagged array
+Jagged arrays can have a mix of single dimensional arrays and multidimensional arrays. 
+I think we get the point with arrays.
+
+*****Homework
+create a MD array of states (index one will be an abbreviation of the state, and index two will be the full state name)
+Prompt the user to enter the state they live in using the state abbreviation
+loop through the md array and print a message using the full name of the state to the user
+arrays
+https://msdn.microsoft.com/en-us/library/9b9dty7d.aspx
+using the md array of your best friends full names, loop through the array and print only their middle names

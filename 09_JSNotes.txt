@@ -1,0 +1,19 @@
+*****Setup
+Create a console application: 09_JSMathAndAssignmentOperators
+
+*****Math
++ - * / %
+
+*****Assignment Operators
++= -= *= /= %=
+
+*****Increment/Decrement Operators
+++
+--
+
+*****Goal
+Be able to recognize various math and assignment operators
+
+*****Homework
+operators
+http://www.w3schools.com/js/js_operators.asp

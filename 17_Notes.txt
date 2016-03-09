@@ -1,0 +1,45 @@
+*****Side
+we did not use methods yet for two primary reasons:
+1) methods in C# must be on a class and thus make it OOP in nature
+2) I want us to understand our code and why methods are necessary but first avoiding them
+
+The ONLY reason I am including a primer here is because in JS (a classless system) methods (called functions) 
+fit in the fundamentals nicely
+
+*****Setup
+Create a console application: 17_Methods
+
+*****Methods 
+Methods are named, callable, blocks of code that can receive parameters, and return something (or void)
+Methods cannot be nested in other methods
+To call a method we simply use the name followed by parenthensis'
+If parameters are used we pass them to the method
+We can assign a variable to the called method if it returns the variables type
+
+Syntax: {return type} {method name}({params}) { {body} }
+
+because we have not gone into OOP yet, we need to prefix our methods with the keyword static
+static int addNumbers(int n1, int n2) { return n1 + n2; }
+
+*****Assignment
+create a method that returns a string of your name
+print your name to the console using the method
+
+*****Assignment
+create a method that will sum the values passed through its parameters
+print the returned value
+
+*****Side
+we can see how these would have been VERY useful in our previous tutorials
+ex. we could have created a sum method in our calculator
+or we could have used a method in checking the victory conditions in our tictactoe game
+
+*****Homework
+refactor any of our previous tutorials and implement static methods to make the code cleaner
+methods
+https://msdn.microsoft.com/en-us/library/ms173114.aspx
+
+*****VS Tip
+we can r click code > quick methods > extract method to quickly create a method of the selected code
+
+*****Congradulations!!!! You are now (if you were not previously) a junior developer!!!

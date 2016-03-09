@@ -1,0 +1,37 @@
+*****Setup
+create a console application: 04_JSLooselyTyped
+
+*****LooselyTyped
+JS is a loosely (or untyped) typed language. 
+Which means variable types are guessed by the language. 
+This can be problematic at times
+
+Types in JS are dynamic. Meaning they type can change at any time
+the dynamic keyword in C# is a little differnt but we will cover that in OOP for C#
+
+JS will also attempt to resolve operands if the types do not match
+for example, adding a number to a string number
+
+*****Assignment
+create some variables as numbers and or strings
+cl those variables
+reassign the variable with a new type
+cl the new variables
+
+*****Side
+var x;               // Now x is undefined
+x = 5;           // Now x is a Number
+x = "John";      // Now x is a String
+
+7 + 7 + 7; // = 21  
+7 + 7 + "7"; // = 147  
+"7" + 7 + 7; // = 777 
+
+*****Goal
+Understand the difference between strongly typed and loosely typed programming languages
+
+*****Homework
+javascript
+https://msdn.microsoft.com/en-us/library/6974wx4d(v=vs.94).aspx
+loosely types nature
+http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html

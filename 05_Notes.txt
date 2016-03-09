@@ -1,0 +1,43 @@
+*****Setup
+Create a new Console Application: 05_IfElse
+
+*****If Else
+if else statments allow us to execute code depending on if the if else condition returns true, or false
+if else statements create code blocks (scope)
+we can use expressions or variables for if else statement condistions
+if else statements are also called conditional statments
+
+*****Assignment
+using booleans true and false, print to the console a statement
+
+*****Comparison/Equality Operators
+== ! != > < >= <=
+using an equality operator will return a boolean between two or more operands
+
+*****Logical Operators
+& && | ||
+and SC-and or SC-or
+
+*****else if
+we can list if statements (similar to a switch) and each will execute if their respective conditions are met
+often times this is not desireable. We can use else if statements. Else if statments will only execute if the original
+if statement fails, and once the if else statement executes, no other if statements will execute
+
+*****Assignment - Scenario: age requirement for drivers license
+use conditional statements inconjunction with equality comparisons
+prompt the user for a value, compare it, do something from the comparison
+mix in tryparse
+
+*****Extra - Short Circuiting
+
+*****Homework
+if else
+https://msdn.microsoft.com/en-us/library/5011f09h.aspx
+Create a simple elementary math quiz
+if the user submits a correct answer, respond congradulating them
+if the user submits an incorrect answer, respont that the answer is incorrect
+5-10 questions is sufficient
+Use each of the equality operators
+
+*****VS Tip
+if tab tab will generate an if statement quickly for us

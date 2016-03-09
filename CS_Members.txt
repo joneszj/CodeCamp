@@ -1,0 +1,19 @@
+With one exception (static constructors), you can specify the accessibility for all class
+and struct members. Just as a type can be  public or  internal , so can each member.
+Members may also be declared as  private , making them accessible only to code inside
+the type, and this is the default accessibility.
+
+Members are 'members' or classes and structs
+
+We have used a few already: fields and methods
+
+Fields: fields are the internal guts of our classes and should usually always be hidden (private) from consumers
+Constructors: these are the open and closed parenthesis when we instatiate our classes. Constructors provide
+a means to assign values at instantiation time, or also create default values at instantiation time
+Methods: methods are blocks of called code that optionally return something
+Properties: the bread and butter of most of our classes. Properties are methods to get and set our class fields
+They provide a means of encapsulating our class private fields. For this reason properties are almost always public
+Inexers:
+Operators:
+Events: these will be covered when we go over delegates
+Nested Types: these are Types in Types ('i heard you like types'). Nested types create an associate or composition

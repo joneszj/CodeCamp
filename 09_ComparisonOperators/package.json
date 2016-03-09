@@ -1,0 +1,10 @@
+{
+  "name": "09_ComparisonOperators",
+  "version": "0.0.0",
+  "description": "09_ComparisonOperators",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

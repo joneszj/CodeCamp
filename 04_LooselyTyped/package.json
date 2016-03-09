@@ -1,0 +1,10 @@
+{
+  "name": "04_LooselyTyped",
+  "version": "0.0.0",
+  "description": "04_LooselyTyped",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

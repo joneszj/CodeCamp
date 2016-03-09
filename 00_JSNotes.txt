@@ -1,0 +1,25 @@
+http://programmers.stackexchange.com/questions/127672/is-javascript-a-functional-programming-language
+
+I have the playground project open as a reference to the readline module from node
+
+initially, the console application only outputs information in node. We can bring in the readline module
+to enable us to get user information and do stuff with it
+
+I am taking an unorthodox approach to teaching javascript. usually it would be taught in the web browser
+but I want us to understand that javascript is an actually language, not just some sort of api 
+for manipulating the browser.
+
+Once we understand this, we will start working on using js in the dom and bom
+
+But don't think of js as simply a tool for dom bom manipulation! Js can be used in applications and even
+microprocessors!https://tessel.io/
+
+*****(wiki)JavaScript is also used in environments that are not Web-based, such as PDF documents
+, site-specific browsers, and desktop widgets. Newer and faster JavaScript virtual machines (VMs) 
+and platforms built upon them have also increased the popularity of JavaScript for server-side Web applications. 
+On the client side, JavaScript has been traditionally implemented as an interpreted language, 
+but more recent browsers perform just-in-time compilation. It is also used in game development, 
+the creation of desktop and mobile applications, and server-side network programming with 
+runtime environments such as Node.js.
+
+With that said, lets start with the fundamentals of javascript!

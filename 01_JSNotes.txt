@@ -1,0 +1,20 @@
+*****Setup
+Create a console application: 01_JSHellowWorld
+
+*****Side
+wow.... look how empty our project is! Node is event driven, and we utilize javascript to plug into certain events
+that node exposes to use that we use javascript to interact with. 
+
+console.log() allows us to print to the console just as c#'s console.write() command did
+
+*****Assignment
+console log several message with the last one being hello world
+
+*****Goal
+Become familiar with your development environment.
+
+*****Homework
+Nodes console class
+https://nodejs.org/api/console.html
+javascript wiki
+https://en.wikipedia.org/wiki/JavaScript

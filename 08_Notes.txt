@@ -1,0 +1,25 @@
+For loops are everywhere!
+*****Setup
+Create a new console application: 08_ForLoopyLoops
+
+*****For
+initializes a variable, compares that variable, runs the code in the block, 
+and then increments (or decrements the initial variable) and repeats until the comparison equates to true
+for ({initial variable} = 0, {comparison}, {iteration}) { }
+this sounds more complicate than it actually is
+loops by default will start at 0, use a greater than comparison, and increment up once
+
+*****Assignment
+create a for loop, > 10
+cw each iteration and include the iteration value in the cw
+
+*****Homework
+for
+https://msdn.microsoft.com/en-us/library/ch45axte.aspx
+use the random class again to create a random number, 
+and the for loop to iterate x times where x is the random number while the iteration is not equal to x
+for each iteration, print something AND have a nested for loop that also prints something
+(perhaps have the nest for loop print its iteration variable value)
+
+*****VS Tip
+for tab tab will quickly generate a for loop for us

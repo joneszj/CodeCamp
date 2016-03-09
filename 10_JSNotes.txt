@@ -1,0 +1,51 @@
+*****Setup
+Create a console application: 10_JSIfElseSwitchComparisonLogicalOperators
+
+*****If Else
+if else statments allow us to execute code depending on if the if else condition returns true, or false
+we can use expressions or variables for if else statement condistions
+if else statements are also called conditional statments
+
+*****Comparison Operators
+== ! != > < >= <=
+using an equality operator will return a boolean between two or more operands
+
+*****Logical Operators
+& && | ||
+and SC-and or SC-or
+
+*****else if
+we can list if statements (similar to a switch) and each will execute if their respective conditions are met
+often times this is not desireable. We can use else if statements. Else if statments will only execute if the original
+if statement fails, and once the if else statement executes, no other if statements will execute
+
+*****Assignment - Scenario: age requirement for drivers license
+use conditional statements inconjunction with equality comparisons
+prompt the user for a value, compare it, do something from the comparison
+mix in tryparse
+
+*****Switch
+switches are useful for multiple choice selections
+if else are just as capable but switches can be more easily read at times
+
+*****Assignment - Elementary Math Quiz
+Finally, we can move on to really start implementing what we have gone through
+From here on out, we will be utilizing Nodes Readline class, it allows us to get a response from the user
+Create a simple elementary math quiz
+if the user submits a correct answer, respond congradulating them
+if the user submits an incorrect answer, respont that the answer is incorrect
+5-10 questions is sufficient
+Use each of the equality operators
+
+*****Assignment: Scenario: favorite color
+prompt the user for their favorite color
+use a switch statement to return a message
+
+*****Goal
+Be able to recognize various math and assignment operators
+
+*****Homework
+comparison
+http://www.w3schools.com/js/js_comparisons.asp
+switch
+http://www.w3schools.com/js/js_switch.asp

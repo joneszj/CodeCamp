@@ -1,0 +1,47 @@
+Methods are named bits of code that can optionally return a result, and that may take
+arguments.
+
+a method defines a list of the inputs it expects—the parameters—and the
+code inside the method refers to these parameters by name. The values seen by the code
+could be different each time the method is invoked, and the term argument refers to the
+specific value supplied for a parameter in a particular invocation
+
+*****Static
+methods can be static and also have accessibility modifiers. Static methods, like static fields, are noninstanced
+methods
+
+{return type} {name} {(parameters)} { implementation }
+
+Methods that return something must use the keyword return with what the method expects to return.
+If the return type is void the method does not need to use the keyword return
+
+*****Out & Ref - returning multiple objects
+Methods only return one object. If we need to return multiple we can use the out prefix on a parameter
+If the out keyword is used, the calling scope must have a reference to receive the out object
+	int remainder = 0;
+	Divide(int x, int y, out int remainder)
+
+	https://www.youtube.com/watch?v=lYdcY5zulXA
+
+Both out and ref allow methods to return multiple objects
+	Out will pass the calling parameter by value (a seperate value is created and used)
+	Ref will alter the calling passed variable (the same value passed is used)
+
+*****Optional Parameters
+optional parameters allow us to make certain parameters... optional when the method is being called
+optional parameters must be last in the parameter declarations
+optional paramaters cannot be ref or out
+
+If you have multiple optional parameters and you want to target a specific param you can specify which paramter
+will get the passed value by Method Call({valueA},{ValueB},{optional parameter name}: {value})
+
+*****Method Overloading
+Another means of offering options to calling code is overloading. By using the same method name, 
+but using differnt types passed or number of parameters we can overload methods this offers the 
+consumer options when calling the method
+
+*****Extension Methods
+C# lets you write methods that appear to be new members of existing types. Extension
+methods, as they are called, look like normal static methods, but with the  this keyword
+added to the first parameter. You are allowed to define extension methods only in a static
+class. 

@@ -1,0 +1,56 @@
+*****Side
+Zack, 561 225 0918, joneszj@gmail.com, www.facebook.com/zjjones1
+That is my personal contact info. Please don't share it
+However, if at anytime you need assistance understanding something or stepping through code, don't hesitate to contact me
+I really don't care how you decide to contact me, just don't be afraid to when you need to
+I am generally up until 12-2am writing these silly courses
+Also,  goo... I mean Bing (lol) and youtube are amazing resourses, use them!
+I seriously enjoy teaching in general
+
+For Mac users, please follow this tutorial for our console applications
+http://michaelcrump.net/creating-and-debugging-console-apps-with-vscode/
+
+*****Setup
+Create a new solution with a console application project
+Name the solution CodeCamp, name the project: 01_HelloWorld
+
+*****Notes
+We can use Console.WriteLine(""); to print information to the console application
+cw tab tab for shortcut
+practice using cw
+Congratz on your first C# application!
+
+Examine the project:
+Solutions, Projects, Solution Explorer, Directives
+Solutions contain (primarialy) projects that contain code, and configuration files
+Directives (using System;) allow use to easily import namespaces from other projects
+(we are getting Console from the system.console class)
+Namespace - all code must be in a namespace. The namespace prevents name collision, and is used to group related objects
+Class Program - all code must also be in a class. For now that is all we need to know
+Main method -  the Console app looks for a class called Program and a method called Main in that class as an entry point
+the application to run
+
+Console is a class with methods to assist in using console applications
+Console.Writeline is one of those methods that will write something to the console application
+
+*****Assignment
+Write five or more statements to the console with the last statement being “Hello World”
+Prevent the console from immediately closing when reaching the end of your code
+Hint: console.readkey()
+
+*****VS Tips
+ctrl c, ctrl p (highlight or line copy)
+ctrl k + ctrl d (auto format document)
+
+*****Side
+all this may seem very foreign to you, but fear not, it won't be for long!
+
+*****Homework
+Begin to familiarize yourself with reading documentation
+console
+https://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx
+namespaces
+https://msdn.microsoft.com/en-us/library/z2kcy19k.aspx
+https://msdn.microsoft.com/en-us/library/dfb3cx8s.aspx
+console main method
+https://msdn.microsoft.com/en-us/library/acy3edy3.aspx

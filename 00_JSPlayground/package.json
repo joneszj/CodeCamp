@@ -1,0 +1,10 @@
+{
+  "name": "00_JSPlayground",
+  "version": "0.0.0",
+  "description": "00_JSPlayground",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

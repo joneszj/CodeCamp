@@ -1,0 +1,43 @@
+*****Setup
+create a console application: 04_JSScope
+
+*****Scope
+Scope refers to the region of accessability of variables and methods (wether or not we can call a variable etc)
+
+*****Global Scope
+The default scope in JS is the global scope. Anything declared here is accessible by child scopes
+It is always recommended to avoid placing anything in the global scope
+Reason being that we can have naming conflicts with our vraiable names and such
+
+*****Side
+C# uses block scope, meaning scope is determined by curly brackets { }
+Those JS uses {} scope is defined by its functions
+keywork 'let': 
+let allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
+*****Function Scope
+In JS, new scope is created by functions
+
+*****Nested Scopes
+Child scopes have access to parent scope objects
+Parent scopes do not have access to child scope objects
+
+*****Hoisting
+Hoisting is JavaScript's default behavior of moving declarations to the top of current scope.
+
+*****Assignment
+Lets play with scope and hoisting!
+Scenario where a variable outside of scope is required by another function
+Scope is very important to understand, take your time to understand it carefully!
+
+*****Goal
+Understand block vs function scope!
+Understand JS hoisting
+Be aware of the keyword let
+
+*****Homework
+Scope
+http://www.w3schools.com/js/js_scope.asp
+Hoisting
+http://www.w3schools.com/js/js_hoisting.asp

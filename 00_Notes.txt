@@ -1,0 +1,19 @@
+Why C#?
+The environment for your software is most important for choosing C#. 
+If you work in an environment with Windows clients, Windows servers, 
+Active Directory, IIS and maybe SQL Server then C# is the far best language with the .NET Framework.
+
+Mac use Mono
+http://stackoverflow.com/questions/652936/reading-console-input-in-monodevelop
+
+Concepts
+Variables
+Cast & Conversion
+Parse & TryParse
+If Else
+While Do While
+Switches
+For Loops
+Arrays: single, multi, jagged
+Debugging
+Methods

@@ -1,0 +1,10 @@
+{
+  "name": "08_LogicalOperators",
+  "version": "0.0.0",
+  "description": "08_LogicalOperators",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

@@ -1,0 +1,6 @@
+3rd party installed technologies:
+node.js
+typescript
+
+if experiencing long startup wait because of code analysis
+https://msdn.microsoft.com/en-us/library/dd547175.aspx

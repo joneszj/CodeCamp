@@ -1,0 +1,13 @@
+What is abstraction?
+http://whatis.techtarget.com/definition/abstraction
+
+Abstraction is the skill of describing real life or conceptual objects as if they were classes and object in code
+
+Think of a chair: it has legs, a weight limit, a back piece and other properties and methods available to it.
+We can break down virtually anything into a set of properties and methods
+
+Properies describe what something has inheritly
+A human has height, weight, limbs
+
+Methods describe what something does
+A human can run, talk, walk, think

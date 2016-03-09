@@ -1,0 +1,25 @@
+syntax (how the language is written)
+
+variables (containers of data)
+scope (variable accessability environment)
+types (numbers, string, booleans, objects)
+type conversion (parsing, convert, casting)
+
+math operators (+ - * / %)
+compound operators (+= -= *= /= %=)
+increment/decrement operators (++ --)
+logical operators (& | && ||)
+comparison operators (> >= < <= == ! ===)
+
+conditional statements (if else switch)
+iteration statements ([condition controlled]while do [counter controlled]for [collection controlled]foreach for in)
+
+methods/functions (callable blocks of repeatable code that return something)
+arrays (collections of data)
+
+comments (developer notes)
+debugging (tools to assist in finding bugs)
+floating point decimal issues (binary (base 2) unable to perfectly represent certain fractional values)
+
+other:
+Regular Expressions

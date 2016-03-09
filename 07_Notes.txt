@@ -1,0 +1,34 @@
+*****Setup
+Create a new console application: 07_WhileDoWhile
+
+*****While
+While loops will execute code over and over as long as a condition is not met
+While loops may never execute if the condition is not met
+
+*****DoWhile
+Exactly the same as while loops except Do While loops will always execute atleast once
+DoWhile loops are useful to keeps our console repeating without closing!
+
+*****Random Class
+To demonstrate the while and do while loops I will introduce the Random class
+The Random class is useful for generating random numbers
+The random class must be instantiated and the next method called for a rendom number
+
+*****Assignment - Scenario: Random Number Guessing Game
+using the random class, generate a random number
+use a char variable to indicate application close (use x)
+use a do while loop to prompt the user to guess the random number
+if the user guesses correctly, exit the do while loop and let them know
+then as the user if they would like to close or repeat
+if the user guesses incorrectly, use an if statement to give them hints on how close they are
+
+*****Homework
+using the above design pattern to keep our console applicaitons open, comb through our previous projects
+and implement a similar design
+while
+https://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx
+do
+https://msdn.microsoft.com/en-us/library/370s1zax.aspx
+
+*****VS Tip
+while tab tab and do tab tab will quickly generate wiles or do whiles for us

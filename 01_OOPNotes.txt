@@ -1,0 +1,21 @@
+Object Oriented Programming is fun!!!
+https://en.wikipedia.org/wiki/Object-oriented_programming
+We can use OOP to code reality!
+
+https://msdn.microsoft.com/en-us/library/dd460654.aspx
+
+We are really going to have a ton of terms and concepts thrown at us here
+The important thing is to get the concepts down. You can always google oop if you forget the terms or syntax
+
+We will start understanding classes and objects
+
+we will move into abstraction
+https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Abstraction_in_object_oriented_programming
+
+encapsulation
+
+aggrigation (aka composition)
+
+polymorphism
+
+recussion (if we have time)

@@ -1,0 +1,10 @@
+C# has the concept of Value vs Reference types
+http://www.albahari.com/valuevsreftypes.aspx
+
+value types pass the under laying value obect(s) when capied or consumed by methods
+reference types pass a reference (like a pointer) to the object being copied or being consumed by a method
+
+classes are reference types
+structs are value types
+
+note: I have never encountered the need to use a struct

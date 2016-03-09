@@ -1,0 +1,42 @@
+*****Setup
+Create a new Console Application: 06_SwitchesStiches
+
+*****Switch
+switches are useful for multiple choice selections
+if else are just as capable but switches can be more easily read at times
+switches consits of:
+switch({value})
+{
+	case {result}:
+		break;
+	default:
+		break;
+}
+We can nest cases
+switch({value})
+{
+	case {result}:
+	case {result}:
+	case {result}:
+		break;
+	case {result}:
+	case {result}:
+		break;
+	default:
+		break;
+}
+The default statement is optional
+
+*****Assignment: Scenario: favorite color
+prompt the user for their favorite color
+use a switch statement to return a message
+
+*****Extra
+Hueristic Frequency Programming
+
+*****Homework
+switch
+https://msdn.microsoft.com/en-us/library/06tc147t.aspx
+
+*****VS Tip
+switch tab tab will generate an if statement quickly for us

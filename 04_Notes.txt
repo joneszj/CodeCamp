@@ -1,0 +1,32 @@
+*****Setup
+Create a new console application: 04_ParseTryParse
+
+*****Parse
+parse and tryparse are on the types you want to parse as
+(ex int.parse, int.tryparse(inVariable, out outVariable))
+Casting and converting are useful if we can expect the to execute variable to already be a number type
+Parse and TryParse are useful when converting strings to numbers
+
+The Console.ReadLine() returns a string of user input when hitting enter
+
+*****Assignment
+cw a few questions asking for a number
+using the readline method, assign a string for each questions asked
+use the parse method to capture and parse to int the string
+pass a non-number value (will error)
+
+*****TryParse
+TryParse allows us to attempt to parse a string, if success: out the parsed value, else: do something else
+tryparse will itself return boolean true or false depending on success
+TryParse is generally the most safe method as it will not error the application if it fails to parse
+The TryParse method requires and out parameter that it will pass the parsed value to
+
+*****Assignment
+cw a few questions asking for a number, or boolean
+use the tryparse to parse the returned string
+
+*****Homework
+parse
+https://msdn.microsoft.com/en-us/library/b3h1hf19(v=vs.110).aspx
+tyrparse
+https://msdn.microsoft.com/en-us/library/f02979c7(v=vs.110).aspx

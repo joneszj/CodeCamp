@@ -1,0 +1,10 @@
+{
+  "name": "03_JSUseStrict",
+  "version": "0.0.0",
+  "description": "03_JSUseStrict",
+  "main": "app.js",
+  "author": {
+    "name": "Zachary",
+    "email": ""
+  }
+}

@@ -1,0 +1,27 @@
+A struct can have most of the same features as a class; it can contain methods, fields,
+properties, constructors, and any of the other member types supported by classes, and
+we can use the same accessibility keywords, such as  public and  internal . However,
+there are a few restrictions, so if we want to turn the  Counter type I wrote earlier into a
+struct, we can’t just replace the  class keyword with  struct . 
+
+there are only two circumstances in which you should write a value type. First, if you
+need to represent something value-like, such as a number, a struct is likely to be ideal.
+Second, if you have determined that a struct has usefully better performance charac­
+teristics for the scenario in which you will use the type, a struct may not be ideal but
+might still be a good choice. But it’s worth understanding the pros and cons in slightly
+more detail.
+
+Value types can often be handled in a much simpler way. For example, consider arrays.
+If you declare an array of some reference type, you end up with an array of references.
+This is very flexible—elements can be null if you want, and you’re also free to have
+multiple different elements all referring to the same item. But if what you actually need
+is a simple sequential collection of items, that flexibility is just overhead. A collection of
+1,000 reference type instances requires 1,001 blocks of memory: one block to hold an
+array of references, and then 1,000 objects for those references to refer to. But with value
+types, a single block can hold all the values. This makes things simple for memory
+management purposes—either the array is still in use or it isn’t, and there’s no need to
+check the 1,000 individual elements separately
+
+A type should only be a struct if it represents something that is very clearly similar in
+nature to other things that are value types. (It should also be fairly small, because passing
+large types by value is expensive.) 

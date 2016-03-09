@@ -1,0 +1,20 @@
+*****Setup
+create another console application: 05_JSComments
+
+Comments are useful!!!! Don't leave your fellow devs in the dark!
+
+VS will include comments above functions to provide a tooltip when calling functions
+
+Also, keep in mind that JS source is sent to client browsers, meaning users can view your comments as well
+don't leave sensitive information in comments!!
+
+//this is a single line comment
+
+//username: zachary-jones pass: SENSITIVEINFORMATION (don't do this obviously :p)
+/*
+ * this
+ * is
+ * a
+ * multiline
+ * comment
+ * */

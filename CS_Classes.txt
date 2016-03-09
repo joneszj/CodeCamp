@@ -1,0 +1,32 @@
+Classes can contain code and data
+Classes are like blueprints for stuff. Initially, by themselves they do nothing. But we can create objects (instantiation) that will behave as we annotate them as classes
+Most everything you will encounter will be a class
+
+Classes can hide information from consumers and even applicaitons (encapsulation) using accessiblity keywords like public and private.
+We will cover encapsulation more in depth in a later session
+
+Lets create our first class library, name it 01_ClassLibrary!
+The class library is just that, a colleciton of classes
+
+Add > New Project > Class Library
+
+After demonstrating basic class functionality lets cover the static keyword
+create a counter and a human class
+see ClassLibrary1.Classes for examples
+
+The static keyword allows us to create data that is not tied to any particularly instantiated class (woah confused)
+To demonstrate this we will create a new counter, the StaticCounter
+We will create a static field called _totalCount and a method to expose that field
+rclick classlibrary1 and add a new class called StaticCounter
+see ClassLibrary1.StaticCounter for examples
+
+*****Homework
+create classes: look at objects around you and attempt to abstract how they would be coded
+if you can't think of anything, try a chair, a fox, and an airplane
+create fields to represent what each object has and methods to model what each object does
+instantiate these classes, set their values, and print relavent information to the console
+literally 90% of our work as developers is working with classes. Take the time to get this right :P
+
+*****optional
+create a static class as a helper class. a helper class is really just a class that helps in developing things. Think of the math class
+Perhaps create a BasicMath static class with static methods to help in simply math operations: add subtract divide multiplication

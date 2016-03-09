@@ -1,0 +1,76 @@
+Want to become a full-stack web developer?
+
+Hey team, I have been developing a curiculum for teaching programming fundamentals in C#, JavaScript (and eventually t-SQL)! I plan on teaching using this curiculum Monday, Wednesday, and Friday from 11:00-12:00 starting next month using one of our conference rooms (likely the basement if I can keep it reserved). During these fundamental courses we will be putting into practice what we learn by creating tools like a calculator, the tic-tac-toe game, form extraction and validation, etc. So, if you can already make these things using any programming language then the fundamental classes are likely not for you.
+
+Once we are through the fundamental courses we will dive into object oriented programming! We will conver concepts such as ecapsulation, inheritance, polymorphism, aggrigation, and abstraction. Using OOP we will create larger projects such as a grocery store registry software simulator, and a lumbar yard facility! Again, if you already have a solid understanding of object oriented programming, these courses are also likely not for you.
+
+Once we have covered the OOP classes we will cover the MVC web development paradigm using ASP.Net's MVC framework. This will allow us to make websites! With our newly created websites we will jump into manipulating the DOM and BOM using javascript and jQuery. If you are comfortable making websites using MVC or you have a solid understanding of JavaScript, then again, these classes would not be for you.
+
+With the ability to make websites and understanding the MVC model, we will shift focus to Database management. Here we will look into basic database structure, CRUD statements, transactions, stored procedures, relationships, etc. If you understand databases and how to CRUD them then these courses are not for you.
+
+With these topics covered, if we have time and members still interested, we will go over Entity Framework, with is an Object Relational Mapping framework from Microsoft to streamline querying and creating databases from code!
+
+Once this is all finished we will attempt to create an entire transactional website from the database up and publish our work to a cloud service like Azure or Heroku etc.!!!
+
+When we are done with this course, and you are comfortable with the concepts we have covered, you could literally apply for my job lol!
+
+Even better, check with your team lead to determine if you can use these classes for your 4DX!
+
+I am really looking forward to teaching these classes, but I think it would be awesome if someone could teach classes covering HTML and CSS along side my teaching (perhaps Tuesday and Tursday?).
+
+Most lessons will have you do a homework assignment as well. Honestly, 500-800 hours covering all the topics we will cover is not a lot so the homework assignments are NECESSARY for you to grasp and retain all the information that will be taught!
+
+I am pretty busy at times so if I cannot hold the class I will let everyone attending know via email. The reasons for the selected time are 1) I doubt most people can stay after hours, and 2) we can dip into luch if needed.
+
+~12hr/week, ~48hr/month + ~(time on homework) ~500-800 hours of developing!!!
+(completely guesstimated time frame)
+Month 1-2: C# Fundamentals
+Month 3: Javascript Fundamentals (will be shorter as most concepts are also covered in the C# fundamentals module)
+Month 4-5: C# & JavaScript OOP, LINQ (will likely go beyond 2 months)
+Month 6: ASP.Net MVC
+Month 7: DOM & BOM manipulation via JavaScript & jQuery, AJAX
+Month 8-9: Database Fundamentals
+Month 10: ASP.Net Entity Framework
+
+If the classes actually last this long, we can consider going into advanced C# topics such a asyncronous programming, ASP.Net WebAPI, WebForms, SalesForce, Umbraco, you name it! I don't even know if I can realistically provide material during these classes but I am commited and will do my best.
+
+By the end of the entire series, you will be a mid-level developer at the least. I really only have room for about 7-10 people. So, if reading this email did not fire you up and you don't really get excited about programming, please consider the space and time requirements and perhaps pass the oppertunity to someone who is. However, if you aren't intersted in most of the beginning courses and you would like to jump in when I am covering a certain topic, please let me know by responding that you only want to be in for certain classes. I will create an email distribution list with the course materail before each class, if you want to join then you may.
+
+Resources needed:
+A laptop (preferably a Windows but I will work with a Mac as well - although I will be learning on the way)
+Time: approx 12 hours a week (3-4 during work hours)
+Visual Studio (community edition is free and has most we will need, not sure if available on mac)
+SSMS (sql server management studio, express edition has all we need and is also free - this wont be needed until we start covering sql, not sure if available on mac)
+A strong desire to learn programming
+
+Besides the fundamentals and OOP, we won't be covering much of any engineering type work (ex. I wont be going into detail about binary, and memory allocation, garbage collection etc.). These are designed to give you a solid foundation as a web developer from the ground up.
+
+So, if you are interested, please get with your team lead/boss/manager/whatever for approval and let me know as soon as you can.
+
+Thanks!
+
+PS: concepts covered in the fundamentals:
+syntax (how the language is written)
+
+variables (named containers of data)
+scope (variable accessability environment)
+types (numbers, string, booleans, objects)
+type conversion (parsing, convert, casting)
+
+math operators (+ - * / %)
+compound operators (+= -= *= /= %=)
+increment/decrement operators (++ --)
+logical operators (& | && ||)
+comparison operators (> >= < <= == ! ===)
+
+conditional statements (if else switch)
+iteration statements ([condition controlled]while do [counter controlled]for [collection controlled]foreach for in)
+
+methods/functions (callable blocks of repeatable code that return something) (for c# this will be covered in OOP)
+arrays (collections of data) (Single, Multidimensional, Jagged)
+
+comments (developer notes)
+debugging (tools to assist in finding bugs)
+
+Apps: (C#) calculator, tictactoe, largest sum algorithm, modulus experimentation, form extraction and validation, and string reversal
+(JavaScript) still writing module

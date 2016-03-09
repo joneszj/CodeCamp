@@ -1,0 +1,32 @@
+*****Setup
+create another console application: 05_JSDataTypes
+
+*****primitive types
+boolean, null, undefined, number, string, symbol (ecma 6)
+
+*****object types 
+object, date, array, keyed collections (ecma 6)
+
+*****Side
+anything that is not a primitive type, is an object
+With JavaScript, null is for objects, undefined is for variables, properties, and methods.
+
+*****Assignment
+create one or more variables for each primitive type
+cl those variables to the console
+create a js object
+use the typeof method
+
+*****Floating point quirks
+0.1 + 0.2 = ??
+
+*****Goal
+Understanding the built in types for javascript
+using the typeof method
+potential pitfalls of floating numbers
+
+*****homework
+primitive types
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+global objects
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects

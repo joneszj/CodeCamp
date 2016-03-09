@@ -1,0 +1,4 @@
+LInQ Samples
+https://msdn.microsoft.com/en-us/library/bb397926.aspx
+101 LInQ Samples
+https://code.msdn.microsoft.com/101-linq-samples-3fb9811b

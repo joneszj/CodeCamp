@@ -1,0 +1,109 @@
+*****Setup
+Create a new console project: 02_VeritableVariables
+
+*****Notes
+Variables are simply named containers of data
+Every variable has a type (a number, or string)
+
+C# has several Intrinsic Types (built in types)
+-Numbers
+	byte
+	sbyte
+	ushort
+	short
+	uint
+	int
+	ulong
+	long
+
+	floats
+	doubles
+	decimal
+
+	number suffix
+		floats	f
+		doubles d
+		decimal m
+
+-Booleans
+	true
+	false
+
+-Strings and Chars
+	strings
+	chars
+
+-Date
+	date
+
+-Implicit Variable
+	var
+
+Variable initialization & assignment
+	Initialization: {type} {name} = {value}
+	Assignment: {name} = {value}
+	Variable names must start with a letter or an underscore
+	Best practice is to always have a variable initializer
+
+*****Assignment
+Create variables or various types and initialize them
+print variables to the console
+
+*****String Concatenation
+string + operator to concatenate
+string placeholders {0}
+
+*****Assignment
+Use concatenation to print a message and the value of a variable
+
+*****Scope
+Block Scope (reference function scope)
+Variables are available to nested scope blocks
+
+	Int numA = 0;
+	if (true)
+	{
+		int numB = numA; //no error
+	}
+	numA + numB; //error numB is out of scope
+
+*****Math operators
++ - * / %
+(pemdas)
+
+*****Compound/Assignment Operators
++= -= *= /= %=
+
+*****Declarations and Expressions
+Initializing variables are declaration statements
+Using math or logical expressions are expression statements
+
+*****Assignment
+create number variables using declaration and expression statements. Then print them to the console using string concatenation
+attempt to mix variable types
+
+*****Comments
+// single line
+/**/ multiline
+
+*****Preprocessor Directives
+we can group large spans of code into a collapsable named container
+#region #endregion
+
+*****Assignment
+Comb over our code and describe what is happening or expected to happen
+
+*****Extra
+Quirks in Floats/Doubles
+Binary precision
+
+*****Homework
+intrinsic types
+https://msdn.microsoft.com/en-us/library/aa711900(v=vs.71).aspx
+scopes (dont kill yourself, its primarially used to prevent name colission)
+https://msdn.microsoft.com/en-us/library/aa691132(v=vs.71).aspx
+string concat
+https://msdn.microsoft.com/en-us/library/ms228504.aspx
+operators (review math and if any others look familiar)
+https://msdn.microsoft.com/en-us/library/6a71f45d.aspx
+ALWAYS COMMENT YOUR CODE
