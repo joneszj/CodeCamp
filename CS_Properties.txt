@@ -1,0 +1,39 @@
+*****Note: we have learned A LOT!!!! Honestly, 70% of what we have learned so far is quite literally 80-90%
+of the code you will be working with on a regular basis once we finish covering Properties. Once you have a firm
+grasp of the fundamentals, classes, properties, and generics (collecitons), and exception handling that is really 
+your bread and butter when it comes to C#. Everything else kind of has a special place on when it is used. 
+Others, senior or mid level developers may use to optimize their code. The rest kinda falls into framework specific knowledge.
+
+Congradualtions, if you have been following along and understand what we have covered, at least the bread and butter,
+you are certainly almost a hireable jr developer :P Once we finish Properties, Generics, and Exception Handling you will
+be a hireable jr developer!
+
+*****Properties
+Properies are get and set methods in disguise. They provide a means to get and set member variables (fields).
+
+Properties typically provide a pair of methods: one to get the value and one to set it.
+
+properties are just a kind of method, nothing actually enforces this. You
+are free to write a property that takes hours to run and makes significant changes to
+your application’s state whenever its value is read, but that would be a pretty lousy way
+to design code.
+
+*****Automatic Properties
+Properties are used EVERYWHERE! Personally, I think I use them (automatic properties) too often and I can see many scenarios
+where using normal Properties would be beneficial. However, frameworks like Entity Framework require automatic properties
+as other frameworks do so properties just tend to ubiquitous
+
+//automatic property of type int
+public int X { get; set; }
+
+shortcut: prop tab tab
+
+Now, don't forget what we learned about fields and creating them, but from not on, 99% of your code will use properties :D
+
+*****Private Getters or Setters
+We can make gets and sets private, hiding them from cunsuming code. This is useful for creating somewhat readonly properties
+by making the set private, only the containing class has access to set the property
+
+
+*****Project: Gorcery Store
+Scenario:

@@ -13,7 +13,7 @@ a means to assign values at instantiation time, or also create default values at
 Methods: methods are blocks of called code that optionally return something
 Properties: the bread and butter of most of our classes. Properties are methods to get and set our class fields
 They provide a means of encapsulating our class private fields. For this reason properties are almost always public
-Inexers:
+Indexers:
 Operators:
 Events: these will be covered when we go over delegates
 Nested Types: these are Types in Types ('i heard you like types'). Nested types create an associate or composition

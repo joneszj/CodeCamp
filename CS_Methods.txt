@@ -45,3 +45,10 @@ C# lets you write methods that appear to be new members of existing types. Exten
 methods, as they are called, look like normal static methods, but with the  this keyword
 added to the first parameter. You are allowed to define extension methods only in a static
 class. 
+
+This is particularly useful with C# features that require
+certain methods to be available. In Chapter 2, you saw that  foreach loops depend on a
+GetEnumerator method. Many of the LINQ features we’ll look at in Chapter 10 also
+depend on certain methods being present, as do the asynchronous language features
+described in Chapter 18. In all cases, you can enable these language features for types
+that do not support them directly by writing suitable extension methods.

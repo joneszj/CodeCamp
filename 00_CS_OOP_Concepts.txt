@@ -4,7 +4,7 @@ Classes (reference types)
 Structs (value types)
 Members: fields (including const, readonly keywords), constructors (default, parameterized, chaining, static), 
 	methods (static, out, ref, overloading, extension methods), 
-	properties (and auto-properties), indexers, operators, events, nested types
+	properties (value keyword and auto-properties), indexers, operators, events, nested types
 Interfaces
 Enums
 Partial Classes and Methods
