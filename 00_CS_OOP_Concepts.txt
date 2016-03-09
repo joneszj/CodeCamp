@@ -12,3 +12,5 @@ Encapsulation: access modifiers (private, public, internal)
 Inheritance
 Generics
 Delegates & Events
+
+Required locations for the this keyword: constructor chaining, extension methods, class indexers

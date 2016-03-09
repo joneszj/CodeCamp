@@ -1,0 +1,8 @@
+Indexers are useful for classes that have collections (we will go into more depth on collecitons [generics] later)
+
+Indexers allow us to traverse a class similarly in the way we can use an indexer to traverse an array
+
+I haven't really ever create a class indexer so I will leave this with the demo as it is somewhat
+self explanitory if you are at the level that you should know how to create your own indexer
+
+https://msdn.microsoft.com/en-us/library/2549tw02(v=vs.80).aspx

@@ -4,3 +4,6 @@ typescript
 
 if experiencing long startup wait because of code analysis
 https://msdn.microsoft.com/en-us/library/dd547175.aspx
+
+
+Awesome .Net Reference http://www.dotnetperls.com/net

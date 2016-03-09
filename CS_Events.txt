@@ -1,0 +1,1 @@
+Events will be covered with delagates. For now, just be aware they are a type of member for classes

@@ -1,0 +1,16 @@
+Creating class operators is another thing I have never done, nor needed to do, nor have I actually seen in anyone elses code
+
+in my opinion, overloaded operators are a means of implementing syntactic sugar...
+
+overloadable operators: https://msdn.microsoft.com/en-us/library/8edha89s(VS.71).aspx
+
+All custom operator implementations follow a certain pattern. They look like static
+methods, but in the place where you’d normally expect the method name, you instead
+have the  operator keyword followed by the operator for which you want to define a
+custom meaning. This is followed by a parameter list, and the number of parameters is
+determined by the number of operands the operator requires.
+
+
+
+However, if you come accross operators in other languages that you would like implemented in C# you can 
+use overloaded operators to implement it

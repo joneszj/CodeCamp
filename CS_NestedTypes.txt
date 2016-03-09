@@ -1,0 +1,5 @@
+Types can contain other types like classes and structs!
+
+This is common and useful to demonstrate composition 
+composition: describes what something has, same way our fields and properties work we can use other types to compose types
+We can access these nested types just as we would accessing normal types
