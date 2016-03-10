@@ -1,0 +1,21 @@
+Encapsulation is the practice of hiding implementation that consuming code does not need to know about anf should not know about
+
+C# offers encapsulation by several keywords:
+
+https://msdn.microsoft.com/en-us/library/dd460654.aspx
+Encapsulation means that a group of related properties, methods, and other members are treated as a single unit or object.
+
+http://www.csharp-station.com/Tutorial/CSharp/Lesson19
+
+Internal - Only code within the same assembly. Can also be code external to object as long as it is in the same assembly. 
+	Internal is what classes are set at by default
+Private - Only members within the same type. 
+	Fields are private by default
+Public - Any code. No inheritance, external type, or external assembly restrictions.
+
+Protected - Only derived types or members of the same type.
+Protected Internal - Either code from derived type or code in the same assembly. Combination of protected OR internal.
+	protected and protected internal are both related to inheritance which we will cover shortly
+
+In web development in my experience so far, most things are just treated as public so I haven't had much need to
+set access protection outside of public

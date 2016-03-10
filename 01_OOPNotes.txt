@@ -18,4 +18,4 @@ aggrigation (aka composition)
 
 polymorphism
 
-recussion (if we have time)
+recurssion (if we have time)

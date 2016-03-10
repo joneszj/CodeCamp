@@ -8,7 +8,7 @@ namespace CS_ExtensionMethods
 {
     public static class StringExtensions
     {
-        //extension methods give the appearance of a extending other objects using the this keyword
+        //extension methods give the illusion of extending other objects using the this keyword
         public static void Show(this string s)
         {
             System.Console.WriteLine(s);
