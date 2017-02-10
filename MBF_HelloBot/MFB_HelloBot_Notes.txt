@@ -1,0 +1,37 @@
+﻿determine branching questions (7)
+
+look into implementing it
+
+
+
+
+
+
+
+can i assist you in finding a [program]?
+	y/n
+
+y: Great! What type of program are you interested in? ex. (Associates degree, or Finance degree)
+	||
+n: Ok, let me know if you do need assistance finding a program. Simply type 'hi' when you need my assistance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
+npm install --save botbuilder
+Bot Builder is a framework for building conversational applications (“Bots”) using Node.js
+
+The UniversalBot class implements all of logic to manage the bots’ conversations with users. You can bind the UniversalBot to a variety of channels using connectors.
+
+dialog/waterfalL: https://docs.botframework.com/en-us/node/builder/chat/dialogs/#waterfall
